@@ -10,15 +10,11 @@ class User {
 	public function register() {
 		echo "User registered";
 	}
-	public function login($User, $username, $password) {
-		$this->auth_user($User, $username, $password);
+	public function login($username, $password) {
+		$this->auth_user($username, $password);
 	}
-	public function auth_user($User, $username, $password) {
-		if($username == $User->get_username() && $password == $User->get_password()) {
-			echo $username . " is autheticated";
-		} else {
-			echo "Credenciais de acesso incorretas";
-		}
+	public function auth_user($username, $password) {
+		echo $username . " is autheticated";
 	}
 	public function set_id($id) {
 		$this->id = $id;
@@ -44,11 +40,10 @@ class User {
 	}
 	*/
 }
-
 $User = new User();
 $User->register();
 $User->set_id(1);
 $User->set_username('Sabrina');
 $User->set_password('123');
-$User->login($User, 'Sabrina', '123');
+$User->login('Sabrina', '123');
 ?>
