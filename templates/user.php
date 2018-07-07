@@ -39,6 +39,14 @@ class User {
 		echo "Destructor called";
 	}
 	*/
+	public static  $minPassLength = 5; //Is static because this value will be always the same for all users.
+	public static function validatePassword($password) {
+		if(strlen($password) >= self::$minPassLength) { //escope resolution
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
 $User = new User();
 $User->register();
@@ -46,4 +54,11 @@ $User->set_id(1);
 $User->set_username('Sabrina');
 $User->set_password('123');
 $User->login('Sabrina', '123');
+$password = $User->get_password();	
+if(User::validatePassword($password)) {
+	echo 'Password is valid!';
+} else {
+	echo 'Password is not valid!';
+}
+echo User::$minPassLength;
 ?>

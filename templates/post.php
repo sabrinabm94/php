@@ -14,4 +14,7 @@ class Post {
 	}
 }
 $post = new Post;
+$post->name = 'testing';
+echo $post->name;
+var_dump(isset($post->name));
 ?>
