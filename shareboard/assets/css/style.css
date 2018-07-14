@@ -1,0 +1,52 @@
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+.btn {
+	margin: auto;
+	display: block;
+	text-transform: uppercase;
+	width: 180px;
+}
+.posts .post {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.title, .subtitle, .text, .btn, .alert {
+	margin-bottom: 20px;
+}
+.title, .subtitle, .text, .form .label, .btn {
+	margin-top: 20px;
+}
+.container {
+	padding: 30px;
+}
+.header .list-item, .alert {
+	display: block;
+    padding: 20px;
+}
+.title, .subtitle, .header .list-item, .btn, .alert {
+	text-align: center;
+}
+.title, .subtitle, .header .list-item, .btn, .form .label {
+	font-weight: bold;
+}
+.date {
+	font-style: italic;
+}
+.btn a {
+	color: #FFFFFF;
+}
+.posts .col-12-sm {
+	width: 100%;
+}
+@media(min-width: 1025px) {
+	.header .list-item {
+		display: inline-block;
+	    width: calc(33%);
+	}
+	.form {
+		max-width: 50%;
+		margin: 0 auto;
+		display: block;
+	}
+}

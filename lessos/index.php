@@ -1,6 +1,6 @@
 <?php
-require 'Database.php'
-$database = new Database;
+require 'database.php';
+$database = new Database();
 //$database->query('SELECT * FROM posts WHERE id = :id');
 //$database->bind(':id', 1);
 //print_r($rows);
@@ -11,7 +11,7 @@ if($_POST['delete']) {
 	$database->bind(':id', $delete_id);
 	$database->execute();
 }
-if($post['submit']) {
+if(isset($post['submit'])) {
 	echo 'Submitted !';
 	$title = $post['title'];
 	$body = $post['body'];
@@ -54,7 +54,7 @@ $rows = $database->resultsset();
 			</form>
 			<?php
 		}
-		endforeach; ?>
+		?>
 	</div>
 </section>
 ?>

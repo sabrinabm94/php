@@ -2,7 +2,7 @@
 class Database {
 	private $host = 'localhost';
 	private $user = 'root';
-	private $pass = '123456';
+	private $pass = '';
 	private $dbname = 'myblog';
 	private $dbh;
 	private $error;
@@ -13,11 +13,11 @@ class Database {
 		//set optins
 		$options = array(
 			PDO::ATTR_PERSISTENT => true,
-			PDO::ATTR_ERRMODE = > PDO::ERRMODE_EXCEPTION
+			PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 		);	
 		//create PDO
 		try {
-			$this->dbh = new PDO($dsn, $this-user, $this->pass, $options);
+			$this->dbh = new PDO($dsn, $this->user, $this->pass, $options);
 		} catch {
 			$this->error = $e->getMessage();
 		}
