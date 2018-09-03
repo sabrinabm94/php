@@ -1,7 +1,7 @@
 # Acess the repositoy project
 
 ## Initialize Xampp with Apach and MySQL activate
-For more information: noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp
+noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp
 
 ## Acess Link
 http://localhost/repositores/php
