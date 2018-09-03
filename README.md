@@ -4,7 +4,7 @@
 noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp
 
 ## Acess Link
-http://localhost/repositores/php
+localhost/repositores/php
 
 Use the acess link in your browser to go to index of repository and select one project to show
 
