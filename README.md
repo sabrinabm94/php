@@ -1,14 +1,31 @@
-# Acess the repositoy project
+# Repository structure
+
+## basic
+Scripts for testing php features and sintax.
+
+## shareboard
+The Shareboard is a application to sharing posts online, created only with php.
+
+
+# Using the repositories projects
 
 ## Initialize Xampp with Apach and MySQL activate
 noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp
 
 ## Acess Link
-localhost/repositores/php
+localhost/php
 
-Use the acess link in your browser to go to index of repository and select one project to show
+## Acess the projects
+Your main directory of repository needs to be in C:\xampp\htdocs.
 
-# Project Structure 
-This repository is divided into 2 folders:
-* PHP Lessons and exercises 
-* The Shareboard application, one sharing post plataform created with php
+Use the acess link in your browser.
+
+Select the projects to see in the index.html file.
+
+
+### contacts
+sabrinabgbc
+
+sabrinabgbc@email.com
+
+noobfrontend.wordpress.com
