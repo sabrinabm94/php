@@ -6,6 +6,7 @@ Scripts for testing php features and sintax.
 ## shareboard
 The Shareboard is a application to sharing posts online, created only with php.
 
+---
 
 # Using the repositories projects
 
@@ -22,8 +23,9 @@ Use the acess link in your browser.
 
 Select the projects to see in the index.html file.
 
+---
 
-### contacts
+# Contacts
 sabrinabgbc
 
 sabrinabgbc@email.com
