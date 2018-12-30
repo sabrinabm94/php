@@ -1,4 +1,4 @@
-# Repository structure
+# repository structure
 
 ## basic
 Scripts for testing php features and sintax.
@@ -8,12 +8,12 @@ The Shareboard is a application to sharing posts online, created only with php.
 
 ---
 
-# Using the repositories projects
+# using the repositories projects
 
-## Initialize Xampp with Apach and MySQL activate
+## initialize Xampp with Apach and MySQL activate
 noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp
 
-## Acess Link
+## acess Link
 localhost/php
 
 ## Acess the projects
@@ -25,9 +25,11 @@ Select the projects to see in the index.html file.
 
 ---
 
-# Contacts
+# contacts
 sabrinabgbc
 
-sabrinabgbc@email.com
+sabrinabgbc@email.com | sabrinabmoreira@gmail.com
 
 noobfrontend.wordpress.com
+
+www.linkedin.com/in/sabrinabmoreira
