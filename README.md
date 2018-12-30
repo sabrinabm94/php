@@ -6,24 +6,26 @@ Scripts for testing php features and sintax.
 ## shareboard
 The Shareboard is a application to sharing posts online, created only with php.
 
+
 ---
+
 
 # using the repositories projects
 
-## initialize Xampp with Apach and MySQL activate
+## Xampp
+
+### initialize Xampp with Apach and MySQL activated
 noobfrontend.wordpress.com/2018/04/28/montando-ambiente-web-com-xampp
 
-## acess Link
-localhost/php
+### htdocs directory
+Move your project repository to C:\xampp\htdocs, become C:\xampp\htdocs\php.
 
-## Acess the projects
-Your main directory of repository needs to be in C:\xampp\htdocs.
+### access the project in browser
+You can access the project in your browser: localhost/php
 
-Use the acess link in your browser.
-
-Select the projects to see in the index.html file.
 
 ---
+
 
 # contacts
 sabrinabgbc
