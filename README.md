@@ -28,10 +28,8 @@ You can access the project in your browser: localhost/php
 
 
 # contacts
-sabrinabgbc
+Sivy
 
-sabrinabgbc@email.com | sabrinabmoreira@gmail.com
+sivyboing@gmail.com
 
-noobfrontend.wordpress.com
-
-www.linkedin.com/in/sabrinabmoreira
+newcoderslab.wordpress.com
