@@ -26,10 +26,7 @@ You can access the project in your browser: localhost/php
 
 ---
 
-
-# Contacts
+# Contact
 Sabrina B.
+sabrinabm94@gmail.com
 
-sabrinabmoreira@gmail.com
-
-https://www.thedevblog.com.br/
