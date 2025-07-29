@@ -24,13 +24,13 @@ Move your project repository to C:\xampp\htdocs, become C:\xampp\htdocs\php.
 You can access the project in your browser: localhost/php
 
 
----
+--
 
 ## Contact
 
 - More about me
 
-[![About me](https://github.com/sabrinabm94/about/blob/main/ABOUT.md)
+[About me](https://github.com/sabrinabm94/about/blob/main/ABOUT.md)
 
 - See my portfolio!
 
